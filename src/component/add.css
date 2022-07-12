@@ -1,0 +1,286 @@
+.navbar{
+  /* background-color:#E5E5E5;
+  width:15vw;
+  height:100vh; */
+  position: absolute;
+width: 288px;
+height: 100vh;
+left: 0px;
+top: 0px;
+
+background: #FFFFFF;
+box-shadow: 0px 5px 5px -3px rgba(0, 0, 0, 0.05), 0px 8px 10px 1px rgba(0, 0, 0, 0.05), 0px 3px 14px 2px rgba(0, 0, 0, 0.05);
+   
+  
+}
+.link{
+  color: black;
+  text-decoration: none;
+  /* margin-bottom: 70px; */
+  /* margin: 20px; */
+  font-family: Montserrat;
+font-size: 18px;
+font-weight: 400;
+line-height: 35px;
+letter-spacing: 0em;
+/* text-align: left; */
+
+}
+ .icon{
+  display: inline-block;
+background-color:#FFBF3F;
+;
+font-size:larger;
+color: black;
+width: 40px;
+border-radius: 6px;
+ }
+.tophead{
+  position: absolute;
+width: 190px;
+height: 40px;
+left: 80px;
+top: 44px;
+
+font-family: 'Passion One';
+font-style: normal;
+font-weight: 900;
+font-size: 25px;
+line-height: 40px;
+/* identical to box height, or 125% */
+
+text-align: center;
+
+color: #2CA4D8;
+}
+.linkk{
+  margin-bottom: 160px;
+}
+.hr{
+  color: black;
+  position: absolute;
+width: 240px;
+height: 0px;
+left: 24px;
+top: 128px;
+
+border: 1px solid #D3D6DB;
+}
+.class2{
+  position: absolute;
+  width: 150px;
+  height: 24px;
+  left: 312px;
+  top: 40px;
+  
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height, or 120% */
+  
+  
+  color: #242424;
+ }
+ .class4{
+  /* display: flex; */
+  /* flex-direction: row;
+  justify-content: center;
+  align-items: center; */
+  padding: 8px 32px;
+  gap: 8px;
+  
+  position: absolute;
+  width: 123px;
+  height: 42px;
+  left: 1293px;
+  top: 40px;
+  
+  background: #2CA4D8;
+  box-shadow: 0px 2px 20px rgba(56, 181, 235, 0.2);
+  border-radius: 10px;
+  border: none;
+ }
+ .pluss{
+  font-size: 20px;
+  color: white;
+ }
+ .btnadd{
+  width: 31px;
+height: 26px;
+
+/* Button 2 */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 26px;
+/* identical to box height, or 186% */
+
+text-align: center;
+letter-spacing: 1.25px;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+ }
+ .class5{
+  /* box-sizing: border-box; */
+
+  position: absolute;
+  width: 1104px;
+   
+  left: 312px;
+  top: 106px;
+  
+  /* border: 1px solid #D3D6DB; */
+  border-radius: 10px;
+  border-collapse: collapse;
+ }
+ /* thead{
+    font-size: 40px;
+    color: rgb(107, 77, 32);
+ } */
+ .class10{
+   display: inline-block;
+   background-color:azure;
+   position: relative;
+   top: 50px;
+ }
+ .class11{
+    
+   font-size: 24px;
+   /* color:red; */
+
+ }
+ .class12{
+  display: inline-block;
+   font-size: 20px;
+   width: 100px;
+   height: 30px;
+   color: rgb(28, 72, 18);
+   text-decoration: none;
+   background: #2CA4D8;
+box-shadow: 0px 2px 20px rgba(44, 164, 216, 0.2);
+border-radius: 10px;
+
+   /* border: solid 2px black; */
+   
+ }
+ .class12:hover{
+   background-color: aqua;
+ }
+ .class13{
+  position: relative;
+  top:50px
+ }
+ thead{
+   
+width: 1104px;
+height: 34px;
+ 
+
+background: #F1F4F8;
+border-radius: 10px 10px 0px 0px;
+ }
+  
+ /* th{
+  border: none;
+ } */
+  td{
+  border: none;
+  height: 30px;
+ } 
+  /* table {
+  border: 1px solid #CCC;
+  border-collapse: collapse;
+} */
+
+ 
+
+.exe{
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height, or 129% */
+
+
+color: #2CBF6E;
+}
+.ave{
+  
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height, or 129% */
+
+
+color: #2CA4D8;
+}
+.po{
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height, or 129% */
+
+
+color: #F24643;
+}
+.pass{
+  display: inline-block;
+padding: 2px 2px;
+gap: 10px;
+padding-bottom: 10px;
+ 
+width: 62px;
+height: 13px;
+ 
+color: #FFFFFF;
+background: #2CBF6E;
+border-radius: 16px;
+}
+.fail{
+  display: inline-block;
+  /* display: flex; */
+flex-direction: row;
+/* justify-content: center; */
+/* align-items: center; */
+padding: 2px 2px;
+padding-bottom: 10px;
+gap: 10px;
+
+ color: #FFFFFF;
+width: 62px;
+height: 13px;
+ 
+
+background: #F24643;
+border-radius: 16px;
+}
+.appear{
+  opacity: 0;
+}
+tr{
+  border:1px groove rgb(58, 54, 54);
+}
+tr:hover{
+  background-color: #F1F4F8;
+
+}
+tr:hover .appear{
+  opacity: 1;
+}
